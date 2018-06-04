@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<!-- define angular app -->
+<html ng-app="scotchApp">
+
+<head>
+  <title>Pantai Sulamadaha</title>
+  <!-- SCROLLS -->
+
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"><!-- 1 -->
+
+  <link rel="stylesheet" type="text/css" href="css/main.css"> <!-- 3 -->
+  
+  <script src="js/angular.min.js"></script><!-- 4 -->
+
+  <script src="js/angular-route.js"></script><!-- 5 -->
+  <script src="js/script.js"></script> <!-- 6 -->
+  <link rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+</head>
+
+<!-- define angular controller -->
+<body ng-controller="mainController">
+
+  <nav class="navbar navbar-default">
+  </nav>
+<div>
+</div>
+  <div id="main">
+  <div ng-view class="content container padding-64"></div>  
+  </div>
+
+
+<!-- ini adalah Footer -->
+    <div class="container-fluid" style="background-color:black;"><br><br>
+      <div class="container">       
+        <div class="row">
+          <div class="col-md-4">
+            <a class="l1" href="#"><img src="images/logo.png" width="70" height="70" style="margin:10px;"></a>
+            </div>    
+          <div class="col-md-5">
+            Web Developer: Sistem Informasi <br>
+            Unversitas Amikom Yogyakarta <br>
+            developed by <a href="portofolio.html" target="_blank">Abd Mizwar A. Rahim</a><br>
+            Phone : 085265942050
+          </div>
+          <div class="col-md-3">  
+          <a class="s1" href="https://www.facebook.com" target="_blank">
+            <img src="images/facebook2.jpg" width="15" height="15" style="margin-top:50px; margin-left: 10px" ></a> 
+          <a class="s1" href="https://www.Google.com"target="_blank">
+            <img src="images/Google.png"width="15" height="15" style="margin-left:10px;margin-top:50px;"></a>   
+          <a class="s1" href="https://www.twitter.com"target="_blank">
+            <img src="images/twitter3.jpg"width="15" height="17" style="margin-top:50px; margin-left: 10px;" ></a>
+          </div>  
+        </div>  
+      </div>     
+      <br><br>  
+    </div>
+</body>
+
+</html>
